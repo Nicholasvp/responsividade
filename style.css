@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #ECE9FD;
+    
+
+    font-family: 'Epilogue', sans-serif;
+
+    padding: 6.0rem 2.3rem 6.6rem;
+    max-width: 33.0rem;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #7158EF;
+    
+    margin-bottom: 17px;
+}
+
+h1 {
+    color:  #090039;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+
+    margin-bottom: 15px;
+}
+
+.page-1 p, a {
+    
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+
+    margin-bottom: 32px;
+    
+    
+}
+
+.page-1 a {
+    color: #090039;
+    text-decoration: none;
+}
+
+
+
+.page-2 ul li {
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+
+    max-width: 25.7rem;
+    display: flex;    
+    align-items: center;
+    gap: 38px;
+    
+
+}
+
+.page-2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #090039;
+    
+    margin-top: 72px;
+}
+
+.page-2 ul li span {
+    font-size: 7.2rem;
+    display: flex;
+    line-height: 8.0rem;
+}
+
+@media (min-width: 700px) {
+    body {
+        max-width: 1100px;
+        display: flex;
+        gap: 10rem;
+        align-items: center;
+        padding: 4rem;
+    }
+
+    body > div {
+        max-width: 500px;
+    }
+
+   
+    .page-2 ul li {
+        gap: 5.3rem;
+        max-width: 500px;
+        align-items: center;
+    }
+
+    ul li + li {
+        margin-top: 3.2rem;
+    }
+}
+
